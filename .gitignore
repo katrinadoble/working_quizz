@@ -1,0 +1,22 @@
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editor temporary files
+*.swp
+*.swo
+*~

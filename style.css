@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #0e0e0c;
+    color: #c009a5;
+padding: 40px 160px;}
+
+div.title {
+  color: #c009a5;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    font-size: 50px;
+}
+input[type=submit] {
+  margin: 10px;
+  color: #c009a5;
+  text-shadow:
+    0 0 7px #82ddf6,
+    0 0 10px #82ddf6,
+    0 0 21px #82ddf6,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    font-size: 20px;
+}
+
+div.submit-button {
+
+  margin: 10px;
+  color: #c009a5;}
+
+#result {
+  color: #c009a5;
+    font-size: 20px;
+}
