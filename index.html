@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Quiz Me If You Can</title>
+  </head>
+
+  <body>
+    <div class="title">Quiz Me If You Can</div>
+    <form id="task-form">
+      <div>
+        <fieldset>
+          <p>1. You are late for an important meeting. What do you do?</p>
+          <div>
+            <input type="radio" name="q1" value="bmw" required /> A. Perfect.
+            Finally a reason to use Sport Mode.
+          </div>
+          <div>
+            <input type="radio" name="q1" value="toyota" /> B. I left 15 minutes
+            early. I am not late.
+          </div>
+          <div>
+            <input type="radio" name="q1" value="tesla" /> C. My calendar, car and
+            phone already knew I was late before I did.
+          </div>
+          <div>
+            <input type="radio" name="q1" value="volvo" /> D. I’ll arrive safely.
+            They can wait.
+          </div>
+        </fieldset>
+      </div>
+      <fieldset>
+        <p>2. What matters most to you when choosing a car?</p>
+        <div>
+          <input type="radio" name="q2" value="bmw" required /> A. I want to enjoy
+          every corner.
+        </div>
+        <div>
+          <input type="radio" name="q2" value="toyota" /> B. It should start. Every.
+          Single. Morning.
+        </div>
+        <div>
+          <input type="radio" name="q2" value="tesla" /> C. Does it have an app?
+          Actually… can I control EVERYTHING from the app?
+        </div>
+        <div>
+          <input type="radio" name="q2" value="volvo" /> D. I want to survive
+          everyone else’s driving.
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <p>3. Someone overtakes you on the highway. What do you do?</p>
+        <div>
+          <input type="radio" name="q3" value="bmw" required /> A. Oh, so we’re
+          racing now?
+        </div>
+        <div>
+          <input type="radio" name="q3" value="toyota" /> B. Nothing. My fuel
+          consumption is currently excellent.
+        </div>
+        <div>
+          <input type="radio" name="q3" value="tesla" /> C. Let Autopilot deal with
+          this nonsense.
+        </div>
+        <div>
+          <input type="radio" name="q3" value="volvo" /> D. Good for them. I’ll see
+          them at the next traffic light.
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <p>4. What does your perfect home look like?</p>
+        <div>
+          <input type="radio" name="q4" value="bmw" required /> A. Stylish, bold
+          and with a very large garage.
+        </div>
+        <div>
+          <input type="radio" name="q4" value="toyota" /> B. Comfortable, practical
+          and nothing breaks.
+        </div>
+        <div>
+          <input type="radio" name="q4" value="tesla" /> C. White walls, three
+          pieces of furniture and everything is smart.
+        </div>
+        <div>
+          <input type="radio" name="q4" value="volvo" /> D. Wood, warm lights,
+          blankets and Scandinavian calm.
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <p>5. Pick your life philosophy.</p>
+        <div>
+          <input type="radio" name="q5" value="bmw" required /> A. Life is too
+          short for boring.
+        </div>
+        <div>
+          <input type="radio" name="q5" value="toyota" /> B. If it works, don't fix
+          it.
+        </div>
+        <div>
+          <input type="radio" name="q5" value="tesla" /> C. There must be a smarter
+          way to do this.
+        </div>
+        <div>
+          <input type="radio" name="q5" value="volvo" /> D. Getting there safely is
+          more important than getting there first.
+        </div>
+      </fieldset>
+      <div class="submit-button">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Play again" />
+      </div>
+
+      <div id="result">
+        <fieldset>
+          <p>Results will be displayed here after submission.</p>
+          <p id="tally"></p>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
